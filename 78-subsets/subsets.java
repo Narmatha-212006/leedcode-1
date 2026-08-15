@@ -14,6 +14,6 @@ class Solution {
       subset(index+1,nums,result,list);
       list.remove(list.size()-1);
       subset(index+1,nums,result,list);
-
+ 
     }
 }
